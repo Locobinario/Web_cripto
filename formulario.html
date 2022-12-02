@@ -1,0 +1,118 @@
+<!--
+Autor: Jose Luis Rubio Ballesteros
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea evaluativa 2 - Crear sitio web criptomonedas
+-->
+
+<!DOCTYPE html>
+
+<!--Idioma-->
+
+<html lang="es"> 
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+	
+    <!-- "CSS" Enlace al archivo de estilos css-->
+	
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/normalize2.css">
+    
+</head>
+
+<body>
+
+<!--"header" Estructura semántica, permite insertar una zona de visualización para las cabeceras-->
+<!--CSS-->
+
+<header class="header_inicio">
+    <h1>FCB</h1>
+    <h1>Formaci&oacute;n Cripto y Blockchain</h1>
+</header>
+
+<!--"nav" Inserta una zona de visualización para la navegación con vínculos hipertexto.-->
+
+<nav>
+    <ul>
+        <li><a href="./index.html">INICIO</a></li>                    <!-- Listado de navegación por la web-->
+        <li><a href="./cripto.html">CRIPTOMONEDAS</a></li>             
+        <li><a href="./noticias.html">NOTICIAS</a></li>
+        <li><a href="./recursos.html">RECURSOS</a></li>
+        <li><a href="./videos.html">V&Iacute;DEOS</a></li>
+        <li><a href="./formulario.html">CONTACTO</a></li>
+    </ul>
+</nav>
+
+<main class="main_titulos">
+    <p>FORMULARIO DE CONTACTO</p>
+</main>
+
+<section class="filas">
+
+<form class="negri_formulario" action="mailto:jrubio@birt.eus" method="post">      <!--Envio de formulario sin datos visibles en url-->
+    <fieldset class="fondogris">
+        <legend>Formulario FCB</legend>
+
+        <label for="fname">Nombre:</label>
+        <input name="Nombre" type="text"><br>
+
+        <label for="lname"> Apellidos:</label>
+        <input name="Apellidos" type="text"><br> </imput>
+
+        <label for="fname">Sexo:</label><br>
+        <input type="radio" name="sexo" value="femenino" checked> Femenino  <!--Para seleccionar una de opciones)-->
+        <input type="radio" name="sexo" value="masculino"> Masculino<br>
+
+        <br><label for="fname">Fecha de nacimiento:</label>
+        <input name="Fecha de nacimiento" type="text"><br> </imput>
+
+        <label for="fname">Email:</label>
+		<input name="Email" type="text"><br> </imput>
+
+        <label for="fname">Tel&eacute;fono:</label>
+        <input name="Telefono" type="text"><br> </imput>
+
+        <label for="motivo contacto">Motivo de contacto:</label>
+        <select id="mod" name="mod">                                        <!--"select permite crear menú desplegable"-->
+            <option value="For1">Formaci&oacute;n 1</option>                <!--Opciones del menú desplegable-->
+            <option value="For2">Formaci&oacute;n 2</option>
+            <option value="For3">Formaci&oacute;n 3</option>
+            <option value="Otro">Otros</option>
+        </select>
+                    
+        <br><label for="fname">Mensaje:<br></label>
+        <textarea name="estudios" rows="7" cols="70"></textarea><br>       <!--"rows" Número visible de líneas en la caja de texto, "cols" ancho de la caja de texto-->
+
+        <input type="submit" value="Enviar"> </imput>                     <!--Opción de enviar-->
+        <input name="Reset" type="reset"><br> </imput>                    <!--Opción de Restablecer-->
+
+
+	<p class="negri">Pulsa el botón de "enviar" para formalizar la matrícula o el botón de "restablecer" para limpiar el formulario</p>
+    </fieldset>
+</form>
+
+<aside class="contenedor_aside">
+    <img class="img_aside" src="./img/twiter_img.jpg" alt="imagen">
+    <a class="bloque" href=https://twitter.com/ target="_blank">TWITER</a>
+
+    <img class="img_aside" src="./img/instagram_img.jpg" alt="imagen">
+    <a class="bloque" href=https://www.instagram.com/ target="_blank">INSTAGRAM</a>
+
+    <img class="img_aside" src="./img/telegram_img.jpg" alt="imagen">
+    <a class="bloque" href=https://telegram.org/ target="_blank">TELEGRAM</a>
+
+    <img class="img_aside" src="./img/discord_img.png" alt="imagen">
+    <a class="bloque" href=https://discord.com/ target="_blank">DISCORD</a>
+</aside>
+
+</section>
+
+<footer class=negri>
+    <p>
+        Creative Commons, copyright https://pixabay.com/es/ Jose Luis Rubio
+    </p>
+</footer>
+
+</body>

@@ -1,0 +1,250 @@
+.article_general{
+    background: salmon;                                           /* Color de fondo */
+    color: black;                                                 /* Color de las letras */
+    margin: 10px;                                                   /* Margen entre ellos "entre los article" */
+    height: 200px;                                                  /* Altura de la caja */
+    border-radius: 10px;                                            /* Bordes redondeados */
+}
+ 
+.article_inicio{
+    background: salmon;                                           /* Color de fondo */
+    color: black;                                                 /* Color de las letras */
+    margin: 0px;                                                    /* Margen entre ellos "entre los article" */
+    height: 500px;                                                  /* Altura de la caja */
+    border-radius: 10px;                                            /* Bordes redondeados */
+    background-image: url("../img/blockchain_4.jpg");               /* Imagen de fondo del título principal */
+}
+
+.article_prueba{
+    background: rgb(101, 170, 73);                                /* Color de fondo */
+    color: black;                                                 /* Color del texto */
+    width: 100%;                                                    /* Ancho de la página */
+    height: 100%;                                                   /* Altura de la página */
+    background-image: url("../img/blockchain_2.jpg");               /* Imagen de fondo del título principal */
+}
+
+.article_lista{
+    background: rgb(66, 179, 44);                                 /* Color del fonde de article */
+    border-radius: 5px;                                             /* Bordes del contenedor redondeados */
+    color: black;                                                 /* Color del texto */
+    font-size: 20px;                                                /* Tamaño del texto */
+    margin: 5px;                                                    /* Margen entre los article */
+    text-align: center;                                             /* Texto centrado */
+    background-image: url("../img/blockchain_5.jpg");               /* Imagen de fondo del título principal */
+
+}
+
+.boton{
+    background: rgb(218, 25, 3);                                  /* Color de fondo */
+    border-radius: 10px;                                            /* Bordes redondeados */
+    width: 90px;                                                    /* Anchura del botón enlace */
+    height: 30px;                                                   /* Altura del botón enlace */
+}
+
+body{
+    height: 100%;                                                   /* Altura de la sección body */
+}
+
+.contenedor_aside{
+    background: rgb(218, 3, 111);                                 /* Color de fondo */
+    text-align: center;                                             /* Centrado */
+    border:rgb(15, 1, 1);                                         /* Bordes de color negro */
+    width: 15%;                                                     /* Anchura del contenedor */
+    display: flex;                                                  /* Activación función flex */
+    flex-direction: column;                                         /* Formación en columnas */
+    flex-basis: 5%;                                                 /* Orden de okupar un % de página */
+    flex-grow: 1;
+}
+
+.contenedor_inicio{
+    background: gray;                                             /* Color de fondo */
+                                                        
+}
+
+.contenedor_1{
+    background: rgb(226, 175, 6);                                 /* Color de fondo */
+    border-radius: 10px;                                            /* Bordes redondeados */
+    margin: 0px;                                                    /* No hay margen con lo cual, se queda centrado */
+    padding: 0px;                                                   /* Espacio entre article"color salmón" y el contenedor"color gris" */
+    display:flex;
+    flex-direction: column;
+    background-image: url("../img/blockchain_2.jpg");               /* Imagen de fondo del título principal */
+}
+
+.contenedor_lista{
+    background: black;                                            /* Color fondo del contenedor */
+    border-radius: 5px;                                             /* Bordes del contenedor redondeados */
+    margin: 0 auto;                                                 /* Centrado */
+    padding: 5px;                                                   /* Margen entre contenedores */
+    min-height: 600px;                                              /* Altura del contenedor */
+    width: 100%;                                                    /* Anchura del contenedor */
+    display: flex;                                                  /* Activación función flex */
+    flex-direction: column;                                         /* Colocación de los articles en columnas */
+    flex-wrap: wrap;                                                /* Si no entran todos los article en el contenedor se coloca en otra columna */
+    align-content: space-around;                                    
+    justify-content: center;                                        /* Se colocan los article de forma centrada */  
+    background-image: url("../img/blockchain_2.jpg");               /* Imagen de fondo del título principal */
+}
+
+
+.filas{
+    display: flex;                                                  /* Activación función flex */
+    flex-direction: row;                                            /* Formación en línea */
+}
+
+footer{
+    background: rgb(77, 74, 74);                                  /* Color de fondo */
+    border-radius: 10px;                                            /* Bordes redondeados */
+    height: 10%;                                                    /* Altura de la zona copyright enlace */
+}
+
+.fondogris{
+    background-color: gray;                                       /* Color de la zona de "form" */
+    width: 100%;                                                    /* Anchura de toda la página */
+    display: flex;                                                  /* Activación función flex */
+    flex-direction: column;                                         /* Formación en columnas */                                 
+    flex-basis: content;
+}
+
+h3{                                                                 
+    text-align: center;                                             /* Centrado */
+}
+
+.img1{
+    height: 75%;                                                    /* Altura*/
+    width: 50%;                                                     /* Ocupar el ancho de la página */
+    display:block;
+    margin:auto;
+}
+
+.img_float{
+    margin-left: 10px;                                              /* margen de la parte izquierda */
+    height: 150px;                                                  /* altura de la imagen */
+    width: 150px;                                                   /* Anchura de la imagen */
+    float: left;
+}
+.img_aside{
+    margin-left: 50px;                                              /* margen de la parte izquierda */
+    height: 65px;                                                   /* altura de la imagen */                                                   
+    height: 150px;                                                  /* altura de la imagen */                                                 
+    width: 65px;                                                    /* Anchura de la imagen */
+}
+
+.img_prueba{
+    margin: 50px;                                                   /* Margen entre las imágenes */
+    width: 150px;                                                   /* Anchura de la imagen */
+    height: 150px;                                                  /* altura de la imagen */
+}
+
+
+.header_inicio{
+    background-image: url("../img/fondo_tituloprincipal_1.jpg");    /* Imagen de fondo del título principal */
+    background-size: cover;                                         /* Utilizar todo el espacio */
+    background-position: center;                                    /* Centrado de la imagen */
+    background-repeat: no-repeat;                                   /* No se repite la imagen */
+    background-color: rgb(120, 214, 120);                         /* Si no aparece la imagen que aparezca este color */
+    color: white;                                                 /* Color de la letra */
+    font-weight: bold;                                              /* Negrita */
+    font-size: 25px;                                                /* Tamaño de la letra */                                                  
+    align-items: center;                                            /* Centrado */
+    text-align: center;                                             /* Centrado */
+    height: 0%;                                                     /* Altura*/
+    width: 100%;                                                    /* Ocupar el ancho de la página */
+    letter-spacing: 5px;                                            /* Espacio entre las letras */
+    word-spacing: 25px;                                             /* Espacio entre las palabras */
+    text-shadow: 0 2px 0 #f7df0b,                                 /* Sombreado */
+                    0 2px 0 #c49b15,
+                     0 2px 0 #c3cf13,
+                     0 10px 10px rgba(245, 279, 197, 0.15);
+    
+}
+
+main{
+    text-align: center;                                             /* Texto centrado */
+    width: 100%;                                                    /* Ocupar el ancho de la página */
+    height: 5%;                                                     /* Altura del apartado main */
+    background-color: rgb(127, 202, 231);                         /* Color de la zona de "nav" */
+    font-size: 20px;                                                /* Tamaño del texto */
+    font-style: oblique;                                            /* Texto en cursiva */
+    font-weight: bold;                                              /* Negrita */
+}
+
+.main_titulos{
+    color:#970833;                                                /* Color de los títulos del navegador, en su propia página */
+}
+
+.mayusculas{
+    text-transform: uppercase;                                      /* Siempre mayúsculas */
+}
+
+nav{
+    background-size: cover;                                         /* Utilizar todo el espacio */
+    width: 100%;                                                    /* Ocupar el ancho de la página */
+    height: 10%;                                                    /* Altura*/
+    background-color: gray;                                       /* Color de la zona de "nav" */
+    float: left;                                                    /* Colocación */
+    background-image: url("../img/fondo_tituloprincipal_2.jpg");    /* Imagen de fondo del título principal */
+    background-repeat: no-repeat;                                   /* No se repite la imagen */
+    
+                                         
+}
+
+nav a{
+    font-size: 14px;                                                /* Tamaño del texto */
+    color: rgb(221, 118, 115);                                    /* Color del texto */
+    }
+
+nav li{
+    display:inline-block;                                           /* permite establecer un ancho y alto en el elemento, cambia de bloque a línea */
+    width:14%;                                                      /* Ancho de la caja */
+    padding:5px 10px;                                               /* Tamaño de la caja */
+    background-color:rgb(15, 1, 1);                               /* Color de la caja */
+    border:1px solid white;                                       /* Tamaño del borde y color */
+    text-align: center;                                             /* Texto centrado */
+}
+.navi_li_block{
+    display: block;
+}
+
+navi li ul{
+    display: none;
+}
+
+nav li:hover{                                                       /* "hover" se activa un color cuando pasa el cursor */
+    background-color: white;                                      /* Color al pasar el cursor por encima */
+}
+
+.negri{                                                            
+    font-weight: bold;                                              /* Negrita */
+    text-align: center;                                             /* Centrado */
+}
+
+.negrita{                                                           
+    font-weight: bold;                                              /* Negrita */
+    text-decoration: underline;                                     /* Subrayado*/
+}
+
+.negri_formulario{
+    font-weight: bold;                                              /* Negrita */
+    font-family: algerian;                                          /* Estilo de la letra */
+}
+
+p{
+    color: black;                                                 /* Color de la letra */
+}
+
+.section_prueba{
+    display: flex;
+    flex-direction: column;                                         /* Se coloca de forma vertical en columnas */
+    margin: 0px;                                                    
+    text-align: center;                                             /* Texto centrado */
+}
+
+.tamano{
+    font-size: 20px;                                                /* Tamaño del texto */
+}
+
+.textojustificado{
+    text-align: justify;                                            /* Texto justificado */
+}
+
